@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="./src/style.css" rel="stylesheet">
+    <title>Project 1</title>
+  </head>
+  <body>
+    <div class="main w-full font-mono">
+      <nav class="fixed top-0 left-0 px-10 py-2 flex justify-between items-center w-full">
+        <img class="w-[160px] mix-blend-screen filter saturate-150 contrast-125" src="https://preview.redd.it/3d-rendered-the-cyberpunk-logo-using-blender-v0-khopj82wqee91.png?width=1920&format=png&auto=webp&s=f42dbd8f5c04aedb9ba9291c1ba4d679029cc1f3" alt="img" />
+        <div class="flex gap-3 items-center">
+          <a href="#" class="tracking-tight text-white hover:text-blue-400 transition-colors">Games</a>
+          <a href="#" class="tracking-tight text-white hover:text-blue-400 transition-colors">Shop</a>
+          <a href="#" class="tracking-tight text-white hover:text-blue-400 transition-colors">Community</a>
+        </div>
+      </nav>
+      <div class="w-full h-[100vh] overflow-hidden">
+        <img class="absolute w-3/4 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 mix-blend-screen filter saturate-150 contrast-125" src="https://preview.redd.it/3d-rendered-the-cyberpunk-logo-using-blender-v0-khopj82wqee91.png?width=1920&format=png&auto=webp&s=f42dbd8f5c04aedb9ba9291c1ba4d679029cc1f3" alt="img" />
+        <canvas id="canvas"></canvas>    
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
